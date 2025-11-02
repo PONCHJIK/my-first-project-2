@@ -13,7 +13,7 @@
       <a href="#hero">Home</a>
       <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#portfolio">Portfolio</a>
+      
       <a href="#contacts">Contacts</a>
     </nav>
   </header>
@@ -53,22 +53,24 @@
 
   <section id="contacts" class="contacts">
     <h2>Contact Me</h2>
-    <form>
-      <label for="name">Your Name</label>
-      <input type="text" id="name" placeholder="Enter your name">
+    <form action="https://formspree.io/f/mpwokjvg" method="POST">
+      <label for="client-name">Your Name:</label>
+      <input type="text" id="client-name" name="name" placeholder="Your name" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" placeholder="example@mail.com">
+      <label for="client-email">Your Email:</label>
+      <input type="email" id="client-email" name="_replyto" placeholder="Your email" required>
 
-      <label for="message">Message</label>
-      <textarea id="message" placeholder="Describe your project..."></textarea>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Describe your project..." required></textarea>
 
-      <button type="submit">Send Message</button>
+      <button type="submit">Send</button>
     </form>
 
+   
+
     <div class="contacts-info">
-      <p>📞 Phone: <a href="tel:+79991234567">+7 999 123-45-67</a></p>
-      <p>📧 Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+      <p> Phone : <a href="tel:+79383140413">+7 938 314-04-13</a></p>
+      <p> Email: <a href="mailto:leonid.spesivcev13@mail.ru">leonid.spesivcev13@mail.ru</a></p>
     </div>
   </section>
 
